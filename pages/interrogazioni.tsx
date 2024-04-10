@@ -5,7 +5,7 @@ const Interrogazioni = () => {
   const router = useRouter();
 
   useEffect(() => {
-    router.push('https://docs.google.com/spreadsheets/d/1pE8maohL9LkmXJyY2Fa6ItQ1FoRA_i1l-JwsvfcOfNc/edit?usp=sharing');
+    router.push('https://docs.google.com/spreadsheets/d/1xzS6eBzr-YVqs7VXY6yeZqwC-cj_f0DHaAg8txlT8eg/edit?usp=sharing');
   }, []);
 
   return null;
