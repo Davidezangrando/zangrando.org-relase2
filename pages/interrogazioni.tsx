@@ -7,7 +7,7 @@ const Interrogazioni = () => {
   useEffect(() => {
     setTimeout(() => {
       router.push('https://docs.google.com/spreadsheets/d/1xzS6eBzr-YVqs7VXY6yeZqwC-cj_f0DHaAg8txlT8eg/edit?usp=sharing');
-    }, 3000); // Wait for 3 seconds
+    }, 30000); 
   }, []);
 
   return null;
