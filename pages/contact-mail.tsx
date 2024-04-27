@@ -6,7 +6,7 @@ const Contact = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = 'mailto:davide.zangrando2@gmail.com?body=Sent from the website';
+      window.location.href = 'mailto:davide.zangrando2@gmail.com?body=Sent from zangrando.org';
     }, 1000); 
   }, []);
 
