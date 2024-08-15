@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/scuola/inglese": [
+    "/prices": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/scuola/inglese.js"
+      "static/chunks/pages/prices.js"
     ]
   },
   "ampFirstPages": []
