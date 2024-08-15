@@ -19,10 +19,10 @@ const Navbar: React.FC<{}> = () => {
             />
           </a>
           <a
-            href="/prices"
+            href="/work"
             className="text-white hover:text-gray-300 transition-colors duration-300"
           >
-            Prices
+            Work with me
           </a>
         </div>
         
