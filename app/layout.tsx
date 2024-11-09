@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
-
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +32,7 @@ export default function RootLayout({
         className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
+        <Analytics />
         <Navbar />
         {children}
       </body>
